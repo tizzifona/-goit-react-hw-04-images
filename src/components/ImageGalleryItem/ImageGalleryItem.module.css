@@ -1,0 +1,25 @@
+.galleryItem {
+  width: 320px;
+  box-sizing: border-box;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  transition: transform .17s;
+}
+
+.galleryItem:nth-child(4n) {
+  margin-right: 0;
+}
+
+.galleryItem:hover,
+.galleryItem:focus {
+  transform: scale(1.1);
+  transition: transform .5s;
+}
+
+.galleryImg {
+  width: 100%;
+  height: 215px;
+  border: #344C59 2px solid;
+}
+
+

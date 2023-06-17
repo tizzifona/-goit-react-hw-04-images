@@ -1,0 +1,12 @@
+.mainContainer {
+  font-size: 40px;
+  color: #010101 ;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
